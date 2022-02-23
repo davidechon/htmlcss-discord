@@ -1,1 +1,16 @@
-body{background-color: red;}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+.debug {
+    border: 1px solid black;
+}
+
+/* General */
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
