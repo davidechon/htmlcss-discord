@@ -8,9 +8,39 @@
 /* Utility */
 .debug {
     border: 1px solid black;
+    background-color: deepskyblue;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* General */
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #23272a;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header  */
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: #3161e0;
+}
+nav .logo, ul li{
+    float: left;
+}
+nav ul li{
+    list-style-type: none;
+    width: 70%;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
 }
