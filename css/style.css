@@ -8,14 +8,15 @@
 /* Utility */
 .debug {
     border: 1px solid black;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
 }
 
-.clearfix {
+/* .clearfix {
     content: "";
     display: table;
     clear: both;
-}
+} */
+
 /* General */
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -23,7 +24,7 @@ body {
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -33,10 +34,14 @@ header{
     line-height: 80px;
     background-color: #3161e0;
 }
-nav .logo, ul li{
+nav .logo{
     float: left;
 }
-nav ul li{
+nav .logo img{
+    vertical-align: middle;
+}
+
+nav ul {
     list-style-type: none;
     width: 70%;
     text-align: center;
@@ -44,3 +49,12 @@ nav ul li{
 nav ul li {
     display: inline-block;
 }
+nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+.btn
