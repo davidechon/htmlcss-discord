@@ -18,7 +18,8 @@
 }
 
 /* General */
-body {
+body { 
+    min-width: 1200px;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #23272a;
 }
@@ -35,7 +36,9 @@ body {
     display: inline;
     padding: 10px 20px;
     border-radius: 15px;
+    float: right;
 }
+
 .btn-white{
     background-color: white;
     color: #23272a;
@@ -83,6 +86,10 @@ nav ul li a{
 }
 nav ul li a:hover {
     border-bottom: 1px solid white;
+}
+.accedi{
+    margin-top: 20px;
+    line-height: 10px;
 }
 
 /* Main */
