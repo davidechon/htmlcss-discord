@@ -171,5 +171,20 @@ width: 40%;
     padding: 10px 0 10px 70px;
     font-size: 14px;
 }
+/* Wave */
 
-
+.wave{
+   color: #f6f6f6;
+   margin-bottom: -10px; 
+}
+.reverse{
+    transform: rotate(180deg);
+    margin-top: -10px; 
+}
+.row-wave{
+    background-color: #f6f6f6;
+    width: 90%;
+    margin: 0x auto;
+    padding: 10px;
+    position: relative;    
+}
