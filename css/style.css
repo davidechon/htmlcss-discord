@@ -52,12 +52,6 @@ body {
     color: white;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-
 /* Header  */
 header{
     width: 100%;
@@ -96,7 +90,7 @@ nav ul li a:hover {
     margin-top: 20px;
     line-height: 10px;
     padding: 14px 20px;
-    color: color: #23272a;;
+    color: color: #23272a;
     background-color: white;
 }
 
@@ -105,18 +99,19 @@ nav ul li a:hover {
 .jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 500px;
+    height: 400px;
+    padding-top: 80px;
 }
 .jumbotron h1{
+    width: 60%;
+    margin: 10px auto;
     text-align: center;
     font-size: 40px;
     color: white;
-    padding: 10px;
-    
 }
 .jumbotron p{
-    width: 70%;
-    margin: 20px auto;
+    width: 60%;
+    margin: 25px auto;
     text-align: center;
     color: white;
     line-height: 1.5;
@@ -124,7 +119,7 @@ nav ul li a:hover {
 }
 .jumbotron ul {
     width: 60%;
-    margin: 30px auto;
+    margin: 10px auto;
     position: relative;
     text-align: center;
 }
