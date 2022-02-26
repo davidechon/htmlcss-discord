@@ -28,7 +28,6 @@ body {
     width: 90%;
     margin: 0 auto;
     position: relative;
-    border: 10px solid green;
 }
 
 .btn{
@@ -48,6 +47,10 @@ body {
     background-color: #23272a;
     color: white;
 }
+.btn-lavender{
+    background-color: #8ea1e1;
+    color: white;
+}
 
 a {
     text-decoration: none;
@@ -62,6 +65,7 @@ header{
     line-height: 80px;
     background-color: rgba(49,97,224,255);
     position: fixed;
+    z-index: 1000;
 }
 
 nav .logo, nav ul{
@@ -103,7 +107,7 @@ nav ul li a:hover {
 .jumbotron img{
     max-width: 100%;
     object-fit: cover;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .jumbotron h1{
     text-align: center;
@@ -129,12 +133,10 @@ nav ul li a:hover {
 
 /* Section-1 */
 .section-1 {
- border: 1px solid blue;
  width: 100%;
  margin: 0 auto;
 }
 .row { 
-    border: 1px solid green;
     width: 90%;
     margin: 50px auto;
     padding: 10px;
@@ -183,8 +185,34 @@ width: 40%;
 }
 .row-wave{
     background-color: #f6f6f6;
+    background-repeat: repeat;
     width: 90%;
     margin: 0x auto;
     padding: 10px;
     position: relative;    
 }
+/* Big */
+.big{
+    background-color: #f6f6f6;
+    background-repeat: repeat;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.title-big{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.text-big{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.stars{
+    width: 50%;
+    margin: 0 auto 50px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
