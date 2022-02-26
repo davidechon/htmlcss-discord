@@ -193,6 +193,7 @@ width: 40%;
 }
 /* Big */
 .big{
+    border: 10px solid yellow;
     background-color: #f6f6f6;
     background-repeat: repeat;
     text-align: center;
@@ -215,4 +216,5 @@ width: 40%;
     background-repeat: no-repeat;
     position: relative;
 }
-
+/* Footer */
+footer
