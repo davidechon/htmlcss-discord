@@ -96,6 +96,7 @@ nav ul li a:hover {
 
 /* Main */
 
+/* Jumbotron */
 .jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -220,12 +221,16 @@ nav ul li a:hover {
     border: 1px solid red;
     width: 50%;
     margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
+    padding-top: 50px; 
 }
-.stars img{
-    border: 1px solid blue;
-    width: 50%;
-    
-}
+
+
+/************************************/
+
 
 
 
