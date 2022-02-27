@@ -197,23 +197,21 @@ nav ul li a:hover {
 } /* questo funziona*/
 
 
-/* Big */
+/* Big - Stars*/
 .title-big{
     font-size: 40px;
     text-align: center;
-}
+} /* questo funziona*/
 .text-big{
     width: 80%;
     margin: 20px auto;
     font-size: 16px;
     text-align: center;
-}
+} /* questo funziona*/
 .big-img{
     border: 1px solid blue;
     max-width: 100%;
-}
-
-
+} /* questo funziona*/
 .stars{
     border: 1px solid green ;
     width: 50%;
@@ -223,27 +221,84 @@ nav ul li a:hover {
     background-size: 100%;
     background-position: top left;
     padding-top: 50px; 
-}
+} /* questo funziona*/
 .stars-title{
     text-align: center;
     margin-top: -25px;
     margin-bottom: 25px;
-}
+} /* questo funziona*/
 
 .stars-btn a{
     border: 1px solid green;
     margin: 0 auto;
     color: white;
     text-decoration: none;
-}
-
-/************************************/
-
-
-
+} /* questo funziona*/
 
 /* Footer */
 footer{
     background-color: #23272a;
     color: white;
 }
+
+.row-up{
+    border: 1px solid yellow;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;;
+
+}
+footer .col-20{
+    border: 1px solid yellow;
+    width: 80%;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+footer .col-left{
+    border: 1px solid pink;
+    margin-right: 10px;
+}
+footer .col-right{
+    border: 1px solid pink;
+    margin-right: 10px;
+}
+.col-1{
+    border: 1px solid yellow;
+    width: Calc(100% / 4);
+    padding: 10px;
+   
+}
+.footer-title{
+    color: #8ea1e1;
+    font-weight: 600;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li a{
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+}
+
+/*
+nav ul {
+    list-style-type: none;
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+*/
