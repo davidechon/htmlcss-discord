@@ -83,6 +83,24 @@ nav ul li a:hover {
     color: #23272a;
     background-color: white;
 }
+.accedi:hover, .btn-white:hover{
+    padding: 14px 20px;
+    background-color: #8ea1e1;
+}
+.accedi a:hover, .btn-white a:hover{
+    color: white;
+}
+.btn-black:hover, .btn-sign-in:hover{
+    background-color: #8ea1e1;
+}
+.stars-btn:hover, .sign-in-btn:hover{
+    background-color: white;
+}
+.stars-btn a:hover, .sign-in-btn a:hover{
+    color: #8ea1e1;
+
+}
+
 /* Main */
 /* Jumbotron */
 .jumbotron{
