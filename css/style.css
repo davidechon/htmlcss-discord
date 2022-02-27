@@ -30,7 +30,7 @@ body {
     /* border: 4px solid red; */
 }
 .btn{
-    background-color: 8ea1e1;
+    background-color: #8ea1e1;
     font-size: 14px;
     color: white;
     display: inline-block;
@@ -44,10 +44,6 @@ body {
 }
 .btn-black{
     background-color: #23272a;
-    color: white;
-}
-.btn-lavender{
-    background-color: #8ea1e1;
     color: white;
 }
 
@@ -217,17 +213,29 @@ nav ul li a:hover {
     max-width: 100%;
 }
 
+
 .stars{
-    border: 1px solid red;
+    border: 1px solid green ;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top left;
     padding-top: 50px; 
 }
+.stars-title{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
 
+.stars-btn a{
+    border: 1px solid green;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+}
 
 /************************************/
 
